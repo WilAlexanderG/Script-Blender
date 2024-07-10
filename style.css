@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+header {
+    background-color: #0a0a0a;
+    background-image: url('images/Encabezado.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 150px;
+    text-align: center;
+    position: relative;
+}
+
+.contact-info p {
+    margin: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo img {
+    max-width: 200px;
+
+}
+
+.social-icons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.social-icon {
+    color: white;
+    margin-left: 10px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 24px;
+}
+
+.intro p {
+    font-size: 18px;
+}
+
+.learn-more {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.dentists {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.dentists h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.dentist {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.dentist img {
+    max-width: 200px;
+    height: 150px;
+    transition: transform 0.2s;
+}
+
+.dentist img:hover {
+    transform: scale(1.1);
+}
+
+.contact {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.chatbot {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: 400px;
+}
